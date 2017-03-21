@@ -3,6 +3,10 @@ package com.scujcc.david.mycode;
 /**
  * Created by David on 3/21/17.
  */
+
+/*
+ * 交换排序 -- 快速排序
+ */
 public class KuaiSuSort {
 
     public KuaiSuSort(){}
