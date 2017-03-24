@@ -6,6 +6,11 @@ import java.util.Set;
 /**
  * Created by David on 3/23/17.
  */
+
+/*
+ *  判断数据是否存在重复的值
+ *  思想：使用HashSet
+ */
 public class IsRepeatInArray {
     public boolean isRepeat(int[] arr){
         boolean flag = false;
