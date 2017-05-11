@@ -20,6 +20,8 @@ public class ChaRuSort {
     public ChaRuSort(){}
 
     public void sort(int[] arr){
+        int temp = 0;
+        int j = 0;
 
         //排序前的数据
         System.out.println("排序前的数据：");
@@ -30,14 +32,26 @@ public class ChaRuSort {
 
         //开始排序
         for (int i = 0; i < arr.length; i++){
-            for (int j = arr.length - i; i > 0; i++){
-
+            temp = arr[i];
+            for (j = i; j > 0 && temp < arr[j-1]; j--){
+                arr[j] = arr[j-1];
             }
+            arr[j] = temp;
         }
+
+        //排序后的数据
+        System.out.println("排序后的数据：");
+        for (int i = 0; i < arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
 
     }
 
     public static void main(String[] args) {
+        ChaRuSort chaRuSort = new ChaRuSort();
+        int[] arr = new int[]{5,3,2,4,1,6,8,7,10,9};
 
+        chaRuSort.sort(arr);
     }
 }
