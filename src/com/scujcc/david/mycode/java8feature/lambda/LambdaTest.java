@@ -1,4 +1,4 @@
-package com.scujcc.david.mycode.java8feature;
+package com.scujcc.david.mycode.java8feature.lambda;
 
 /**
  * Created by David on 5/11/17.
