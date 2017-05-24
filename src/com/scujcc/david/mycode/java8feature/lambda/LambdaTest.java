@@ -34,8 +34,13 @@ public class LambdaTest {
         greetingService2.sayMessage("David");
     }
 
+    /*
+     * 函数式借口：借口里面只定义一个抽象方法的借口。
+     * 如果一个接口定义了多个方法，但是只有一个方法是抽象方法，此接口也是函数是接口。
+     * 其他的方法是被实现了的，加default即可，（默认实现），但是这是java8之后才行的。
+     */
     interface MathOperation {
-        int operation(int a, int b);
+        int operation(int a, int b);    //operation 是 谓词。
     }
 
     interface GreetingService {
