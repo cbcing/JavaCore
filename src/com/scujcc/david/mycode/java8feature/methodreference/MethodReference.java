@@ -1,4 +1,4 @@
-package com.scujcc.david.mycode.java8feature;
+package com.scujcc.david.mycode.java8feature.methodreference;
 
 import java.util.ArrayList;
 import java.util.List;
