@@ -1,7 +1,5 @@
 package com.scujcc.david.datastructure.queue;
 
-import com.scujcc.david.datastructure.Node;
-
 /**
  * Created by David on 5/28/17.
  */

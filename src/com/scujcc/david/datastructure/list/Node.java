@@ -1,4 +1,4 @@
-package com.scujcc.david.datastructure;
+package com.scujcc.david.datastructure.list;
 
 /**
  * Created by David on 5/28/17.
