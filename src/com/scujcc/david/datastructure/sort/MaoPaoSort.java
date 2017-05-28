@@ -1,4 +1,4 @@
-package com.scujcc.david.mycode;
+package com.scujcc.david.datastructure.sort;
 
 /**
  * Created by David on 3/21/17.

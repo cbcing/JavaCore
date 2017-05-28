@@ -3,6 +3,11 @@ package com.scujcc.david.mycode.java8feature.lambda;
 /**
  * Created by David on 5/11/17.
  */
+
+/*
+ * lambda表达式带来的好处：1、代码更简洁； 2、代码等价灵活（eg：可以有效应对不同的需求）。
+ */
+
 public class LambdaTest {
     public static void main(String[] args) {
         LambdaTest lambdaTest = new LambdaTest();
@@ -37,7 +42,7 @@ public class LambdaTest {
     /*
      * 函数式借口：借口里面只定义一个抽象方法的借口。
      * 如果一个接口定义了多个方法，但是只有一个方法是抽象方法，此接口也是函数是接口。
-     * 其他的方法是被实现了的，加default即可，（默认实现），但是这是java8之后才行的。
+     * 默认实现和静态不会影响函数式接口出错。
      */
     interface MathOperation {
         int operation(int a, int b);    //operation 是 谓词。

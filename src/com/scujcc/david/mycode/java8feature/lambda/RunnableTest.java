@@ -8,7 +8,7 @@ public class RunnableTest {
     
     System.out.println("=== RunnableTest ===");
     
-    // Anonymous Runnable
+    // Anonymous Runnable(匿名Runnable)
     Runnable r1 = new Runnable(){
       
       @Override
@@ -18,6 +18,7 @@ public class RunnableTest {
     };
     
     // Lambda Runnable
+    // 因为Runnable只有一个抽象方法run()。
     Runnable r2 = () -> System.out.println("Hello world two!");
     
     // Run em!
